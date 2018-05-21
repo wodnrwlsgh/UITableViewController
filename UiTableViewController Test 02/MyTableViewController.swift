@@ -3,12 +3,12 @@ import UIKit
 
 class MyTableViewController: UITableViewController {
     
-    var foodStoreNames = ["늘해랑", "번개반점", "아딸", "왕짜장", "토마토 도시락", "홍콩반점"]
-    var foodStoreThumbnail = ["01", "02", "03", "04", "05", "06"]
-    var foodStoreAddress = ["부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282" ]
-    var foodStoreTel = ["051-852-9969","051-852-9969","051-852-9969","051-852-9969","051-852-9969","051-852-9969"]
+     var foodStoreNames = ["늘해랑", "번개반점", "아딸", "왕짜장", "토마토 도시락", "홍콩반점"]
+     var foodStoreThumbnail = ["01", "02", "03", "04", "05", "06"]
+     var foodStoreAddress = ["부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282","부산광역시 부산진구 양정동 418-282" ]
+     var foodStoreTel = ["051-852-9969","051-852-9969","051-852-9969","051-852-9969","051-852-9969","051-852-9969"]
 
-    override func viewDidLoad() {
+    override func viewDidLoad()  {
         super.viewDidLoad()
         
         self.title = "배달의 DIT"
